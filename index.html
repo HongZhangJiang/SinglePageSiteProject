@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<title>China Discovery</title>
+	  	<meta charset="utf-8" />
+	  	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+	  	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+		<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	  	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+   		<script src="js/jquery.js"></script>
+   		<script src="js/jquery.validate.js"></script>
+   		<script src="js/myscript.js"></script>
+	 	<script>
+			$.validator.setDefaults({
+				submitHandler: function() {
+					form.submit();
+				}
+			});
+
+			$().ready(function() {
+				// validate login form on keyup and submit
+				$("#login").validate({
+					messages: {
+						email: "Please enter a valid email address"
+					}
+				});
+			});
+		</script>
+ 	</head>
+
+	<body>
+		<header id="header">
+				<a id="logo1" href="index.html"><img src="images/logo.jpg" alt="China Discovery Logo"></a>
+				<h1>Chian Discovery</h1>
+				<h2>We design your Chinese tuors!</h2>
+		</header>
+
+		<div id="content-wrapper">
+			<form id="login" action="#" method="get">
+					<label>Get Our Newest Tours And Goupon!</label>
+					<label>Email Address: </label>
+					<input type="email" name="email" id="email" placeholder="you@example.com" />
+					<input type="image" src="images/send-button.png" alt="Submit" id="send" />
+
+	        </form>	
+
+
+		</div>
+ 
+	</body>
+
+</html>
