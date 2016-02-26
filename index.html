@@ -14,7 +14,6 @@
    		<script src="js/jquery.validate.js"></script>
    		<script src="js/myscript.js"></script>
    		<script src="js/bxslider.js"></script>
-   		<script type="text/javascript" src="js/myscript.js"></script>
 	 	<script>
 			$.validator.setDefaults({
 				submitHandler: function() {
@@ -30,6 +29,14 @@
 					}
 				});
 			});
+
+			$(document).ready(function(){
+	  		$('.bxslider').bxSlider({
+	  			auto: true,
+  				autoControls: true
+	  		});
+		});
+
 		</script>
  	</head>
 
