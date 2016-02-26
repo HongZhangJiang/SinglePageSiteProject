@@ -142,6 +142,7 @@ p {
   text-indent: 9.09090909%; /* Use one of 7-column grid to indent * */
   line-height: 2.0437583893em;
   padding-bottom: 0.8em;
+  padding-top: 0.5em;
 }
 
 .capital1 {
