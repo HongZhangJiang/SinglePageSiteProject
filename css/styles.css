@@ -238,4 +238,6 @@ img {
 
 .flex-item {
   padding: 1em 1em 1em 1em;
+  width: 40%;
+  height:25%;
 }
