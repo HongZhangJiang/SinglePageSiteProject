@@ -79,16 +79,12 @@ body {
   text-align:center;
 }
 
-#header a#logo1 img {
-width: 3.5em; /* 10px @ 16px */
-height: 3.75em; /* 10px @ 16px */
-}
-
 #header h1 {
   font-family: 'Lobster', cursive;
   font-size: 3em;  /* 10px @ 16px */
   line-height: 1.0437583893em;
   padding-bottom: 0.8em;
+  padding-top: 1em;
 }
 
 #email{
