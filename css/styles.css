@@ -49,20 +49,32 @@ table {
 
 /* Custom Site Styles */
 html {
-  background-image: url("../images/background.jpg");
-  padding: .625em; /* 10px @ 16px */
+  font-family: "Palatino Linotype" "Times New Roman", Helvetica, Times, serif;
+  color: #FFFFF0; 
+  background-color: #000000;
+  padding: 5% 5%;
+  /* Prevent text-size adjustments during orientation changes on mobile devices */
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  -ie-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-size: 100%;
-}
+  /* Modular Scale ---------------------- 18px @ 1:1.5   ----------------------*/
+  font-size: 1.125em;
+  line-height: 1.34em;
+  background-color: transparent;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+  }
 
 body {
-  color: #222; /* Never quite true black */
-  background: #FAFAFA; /* A little grayer than true white */
-  font-size: 1.188em; /* 18px base font size */
-  line-height: 1.44em; /* 25.92px baseline grid */
+  /* Add some shadow for extra visibility. */
+  text-shadow: 0.08em 0.08em 0.05em #000;
+  background-color: transparent;
+  opacity: 1;
 }
 
 #header {
@@ -77,6 +89,8 @@ body {
     url("../images/header_back.jpg");
   color: #FFFFFF;
   text-align:center;
+  background-color: transparent;
+  opacity: 1;
 }
 
 #header h1 {
@@ -85,6 +99,8 @@ body {
   line-height: 1.0437583893em;
   padding-bottom: 0.8em;
   padding-top: 1em;
+  background-color: transparent;
+    opacity: 1;
 }
 
 #email{
@@ -118,6 +134,8 @@ form {
   line-height: 1.0437583893em;
   text-align:center;
   padding-bottom: 1em;
+  background-color: transparent;
+  opacity: 1;
 }
 
 h2 {
@@ -126,6 +144,8 @@ h2 {
   font-weight: bold;
   line-height: 1.0437583893em;
   padding-bottom: 0.5em;
+  background-color: transparent;
+  opacity: 1;
 }
 
 h3 {
@@ -134,6 +154,8 @@ h3 {
   font-weight: bold;
   line-height: 1.0437583893em;
   padding-bottom: 0.5em;
+  background-color: transparent;
+    opacity: 1;
 }
 
 p {
@@ -141,6 +163,8 @@ p {
   line-height: 2.0437583893em;
   padding-bottom: 0.8em;
   padding-top: 0.5em;
+  background-color: transparent;
+    opacity: 1;
 }
 
 .capital1 {
@@ -156,10 +180,9 @@ p {
 }
 
 #content-wrapper {
-  margin: 0.728em 2.16em 1.44em 1.44em; /* Use 6:5 ratio w/ baseline grid for mobile-first margins */
-  padding: .625em 0.64em;
-  /* .625em = half a line-height (23.75px) at 19px em */
-
+    background-color: rgba(150,150,150,0.8);
+    border-radius: 0.83333em;
+    -moz-border-radius: 0.83333em;
   }
 
 input,label {
@@ -181,6 +204,8 @@ img {
   display: block;
   max-width: 100%;
   padding-bottom: 1.44em;
+  background-color: transparent;
+    opacity: 1;
 }
 
 /* TODO: Change media query to em units */
@@ -189,7 +214,7 @@ img {
     font-size: 120%;
   }
 
-    figure {
+  figure {
     position: relative;
   }
   .images {
@@ -241,3 +266,4 @@ img {
   width: 40%;
   height:25%;
 }
+
