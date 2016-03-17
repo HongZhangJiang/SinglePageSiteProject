@@ -50,7 +50,7 @@ table {
 /* Custom Site Styles */
 html {
   font-family: Arial, Helvetica, sans-serif;
-  background: url(../images/background.jpg) no-repeat center center fixed;
+  background: black;
   padding: 5% 5%;
   /* Prevent text-size adjustments during orientation changes on mobile devices */
   -webkit-text-size-adjust: 100%;
@@ -222,6 +222,20 @@ input,label,form {
 @media screen and (min-width: 37.5em) {
   html {
     font-size: 120%;
+  }
+
+  html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  padding: 5% 5%;
+  /* Prevent text-size adjustments during orientation changes on mobile devices */
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  /* ---------------------- 18px @ 1:1.5   ----------------------*/
+  font-size: 120%;
+  line-height: 1.34em;
   }
 
   #content-wrapper {
