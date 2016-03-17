@@ -217,39 +217,6 @@ input,label,form {
   color: red;
 }
 
-#top-section {
-  -webkit-animation: fadein 2s;
-  -moz-animation: fadein 2s;
-  -ms-animation: fadein 2s;
-  -o-animation: fadein 2s;
-  animation: fadein 2s;
-}
-
-#top-text-section {
-  -webkit-animation: fadein 4s;
-  -moz-animation: fadein 4s;
-  -ms-animation: fadein 4s;
-  -o-animation: fadein 4s;
-  animation: fadein 4s;
-}
-
-#pic-section {
-<<<<<<< HEAD
-  -webkit-animation: fadein 8s;
-  -moz-animation: fadein 8s;
-  -ms-animation: fadein 8s;
-  -o-animation: fadein 8s;
-  animation: fadein 8s;  
-}
-
-#email-seciton {
-  -webkit-animation: fadein 16s;
-  -moz-animation: fadein 16s;
-  -ms-animation: fadein 16s;
-  -o-animation: fadein 16s;
-  animation: fadein 16s;
-}
-
 /* TODO: Change media query to em units */
 @media screen and (min-width: 37.5em) {
   html {
