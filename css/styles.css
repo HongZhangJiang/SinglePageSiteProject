@@ -57,7 +57,6 @@ html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  /* ---------------------- 18px @ 1:1.5   ----------------------*/
   font-size: 1.25em;
   line-height: 1.34em;
   }
@@ -235,7 +234,7 @@ input,label,form {
 }
 
 #pic-section {
-  -webkit-animation: fadein 84s;
+  -webkit-animation: fadein 8s;
   -moz-animation: fadein 8s;
   -ms-animation: fadein 8s;
   -o-animation: fadein 8s;
