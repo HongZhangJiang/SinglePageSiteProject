@@ -128,11 +128,6 @@ h2{
   line-height: 1.0437583893em;
   padding: 2em 5% .5em 5%;
   text-align: center;
-  -webkit-animation: fadein 3s;
-  -moz-animation: fadein 3s;
-  -ms-animation: fadein 3s;
-  -o-animation: fadein 3s;
-  animation: fadein 3s;
 }
 
 h3 {
@@ -141,11 +136,6 @@ h3 {
   font-weight: bold;
   padding: 2em 5% .5em 5%;
   text-align: center;
-  -webkit-animation: fadein 3s;
-  -moz-animation: fadein 3s;
-  -ms-animation: fadein 3s;
-  -o-animation: fadein 3s;
-  animation: fadein 3s;
 }
 
 header {
@@ -165,12 +155,7 @@ header {
 
 #top-section {
   text-align: left;
-  -webkit-animation: fadein 2s;
-  -moz-animation: fadein 2s;
-  -ms-animation: fadein 2s;
-  -o-animation: fadein 2s;
-  animation: fadein 2s;
-}
+ }
 
 .pic-header {
   text-align: center;
@@ -178,62 +163,10 @@ header {
 
 #pic-section {
   min-height: 100%;
-  -webkit-animation: fadein 4s;
-  -moz-animation: fadein 4s;
-  -ms-animation: fadein 4s;
-  -o-animation: fadein 4s;
-  animation: fadein 4s;
-}
+ }
 
 #toplink{
   text-align: center;
-}
-
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    text-align: center;
-}
-
-.flex-item {
-  padding: 1em 1em 1em 1em;
-  width: 50%;
-  height:50%;
-}
-
-#email{
-  width: 12.3125em;
-  height: 3em;
-  -webkit-border-radius: 0.625em;
-    -moz-border-radius: 0.625em;
-  border:0.0625em solid transparent;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background: #DDD;
-  font-size: inherit;
-  font-family: 'Alegreya Sans', sans-serif;
-  padding: 1em;
-}
-
-#send{
-  width: 3.25em;
-  height: 2em;
-  border:0.0625em solid transparent;
-  border-radius: 0.625em;
-  font:bolder;
-  font-size: 1.375em;
-}
-
-form {
-  font-family: times-serif;
-  font-size: 1.35em;
-  font-weight: bold;
-  line-height: 1.0437583893em;
-  text-align:center;
-  padding-bottom: 1em;
-  background-color: transparent;
-  opacity: 1;
 }
 
 .capital1 {
@@ -248,18 +181,43 @@ form {
   text-align: left;
 }
 
-input,label {
+#email{
+  width: 12.3125em;
+  height: 2.85em;
+  -webkit-border-radius: 0.625em;
+    -moz-border-radius: 0.625em;
+  border:0.0625em solid transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #DDD;
+  font-size: inherit;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+#send{
+  width: 8em;
+  height: 2em;
+  border:0.0625em solid transparent;
+  border-radius: 0.625em;
+  font:bolder;
+  font-size: 1.25em;
+}
+
+input,label,form {
     display: block;
     margin:0 auto;
-}
-  
-label {
-    margin-top: 1em;
+    font-family: times-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align:center;
+    width: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
   
 #login label.error {
   width: auto;
-  display: inline;
   color: red;
 }
 
