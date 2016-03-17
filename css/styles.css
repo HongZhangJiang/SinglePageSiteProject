@@ -50,7 +50,7 @@ table {
 /* Custom Site Styles */
 html {
   font-family: Arial, Helvetica, sans-serif;
-  background: url(../images/background.jpg) no-repeat center center fixed;
+  background: black;
   padding: 5% 5%;
   /* Prevent text-size adjustments during orientation changes on mobile devices */
   -webkit-text-size-adjust: 100%;
@@ -60,8 +60,6 @@ html {
   /* ---------------------- 18px @ 1:1.5   ----------------------*/
   font-size: 1.25em;
   line-height: 1.34em;
-  height:100%;
-  width: 100%;
   }
 
 #content-wrapper {
@@ -223,7 +221,19 @@ input,label,form {
 /* TODO: Change media query to em units */
 @media screen and (min-width: 37.5em) {
   html {
-    font-size: 120%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  padding: 5% 5%;
+  /* Prevent text-size adjustments during orientation changes on mobile devices */
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  /* ---------------------- 18px @ 1:1.5   ----------------------*/
+  line-height: 1.34em;
+  height:100%;
+  width: 100%;
+  font-size: 120%;
   }
 
   #content-wrapper {
