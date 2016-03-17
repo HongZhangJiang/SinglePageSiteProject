@@ -60,6 +60,8 @@ html {
   /* ---------------------- 18px @ 1:1.5   ----------------------*/
   font-size: 1.25em;
   line-height: 1.34em;
+  height:100%;
+  width: 100%;
   }
 
 #content-wrapper {
