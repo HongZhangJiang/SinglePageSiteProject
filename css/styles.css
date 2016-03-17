@@ -234,7 +234,15 @@ input,label,form {
 }
 
 #pic-section {
+<<<<<<< HEAD
   -webkit-animation: fadein 8s;
+=======
+<<<<<<< HEAD
+  -webkit-animation: fadein 8s;
+=======
+  -webkit-animation: fadein 84s;
+>>>>>>> 016e2ea5e9b9be3705798d06921de97496ec4695
+>>>>>>> 1e54b7d228d75f82d8da060cb115588ba2ab6f6a
   -moz-animation: fadein 8s;
   -ms-animation: fadein 8s;
   -o-animation: fadein 8s;
