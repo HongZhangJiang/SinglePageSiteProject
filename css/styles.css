@@ -49,58 +49,156 @@ table {
 
 /* Custom Site Styles */
 html {
-  font-family: "Palatino Linotype" "Times New Roman", Helvetica, Times, serif;
-  color: #FFFFF0; 
-  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../images/background.jpg) no-repeat center center fixed;
   padding: 5% 5%;
   /* Prevent text-size adjustments during orientation changes on mobile devices */
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  /* Modular Scale ---------------------- 18px @ 1:1.5   ----------------------*/
-  font-size: 1.125em;
+  /* ---------------------- 18px @ 1:1.5   ----------------------*/
+  font-size: 1.25em;
   line-height: 1.34em;
-  background-color: transparent;
-  background: url(../images/background.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
   }
 
-body {
-  /* Add some shadow for extra visibility. */
-  text-shadow: 0.08em 0.08em 0.05em #000;
-  background-color: transparent;
-  opacity: 1;
+#content-wrapper {
+  color: #222; /* Never quite true black */
+  background: #FAFAFA; /* A little grayer than true white */
+  border-radius: 0.83333em;
+  -moz-border-radius: 0.83333em;
+  max-width: 55.555555556em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#header {
+img {
+  max-width: 100%;
+  box-shadow: 0.45em 0.45em 0.5em black;
+  -moz-box-shadow: 0.45em 0.45em 0.5em black;
+  -webkit-box-shadow: 0.45em 0.45em 0.5em black;
+  -khtml-box-shadow: 0.45em 0.45em 0.5em black;
+  padding-top: 0.34em;
+}
+
+.pic-container {
+  text-align: center;
+}
+
+p {
+  text-indent: 9.09090909%; /* Use one of 7-column grid to indent * */
+  line-height: 2.0437583893em;
+  padding: 2em 5% .5em 5%;
+  padding-top: 0.34em;
+  padding-bottom: 1em;
+  font-size: 1.25em;
+}
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  line-height: 1.0437583893em;
+  padding: 1.5em 5% .5em 5%;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.0437583893em;
+  padding: 2em 5% .5em 5%;
+  text-align: center;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -ms-animation: fadein 3s;
+  -o-animation: fadein 3s;
+  animation: fadein 3s;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.528em;
+  font-weight: bold;
+  padding: 2em 5% .5em 5%;
+  text-align: center;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -ms-animation: fadein 3s;
+  -o-animation: fadein 3s;
+  animation: fadein 3s;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 2em;
   border-radius: 0.75em 0.75em 0 0; 
-    background: 
+  background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
       rgba(125, 129, 112, 0.5) , 
       rgba(125, 129, 112, 0.8) 
     ),
     /* bottom, image */
-    url("../images/header_back.jpg");
+  url("../images/header_back.jpg");
   color: #FFFFFF;
-  text-align:center;
-  background-color: transparent;
-  opacity: 1;
 }
 
-#header h1 {
-  font-family: 'Lobster', cursive;
-  font-size: 3em;  /* 10px @ 16px */
-  line-height: 1.0437583893em;
-  padding-bottom: 0.8em;
-  padding-top: 1em;
-  background-color: transparent;
-    opacity: 1;
+#top-section {
+  text-align: left;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
+.pic-header {
+  text-align: center;
+}
+
+#pic-section {
+  min-height: 100%;
+  -webkit-animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  -ms-animation: fadein 4s;
+  -o-animation: fadein 4s;
+  animation: fadein 4s;
+}
+
+#toplink{
+  text-align: center;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+}
+
+.flex-item {
+  padding: 1em 1em 1em 1em;
+  width: 50%;
+  height:50%;
 }
 
 #email{
@@ -138,38 +236,9 @@ form {
   opacity: 1;
 }
 
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
-  font-weight: bold;
-  line-height: 1.0437583893em;
-  padding-bottom: 0.5em;
-  background-color: transparent;
-  opacity: 1;
-}
-
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.728em;
-  font-weight: bold;
-  line-height: 1.0437583893em;
-  padding-bottom: 0.5em;
-  background-color: transparent;
-    opacity: 1;
-}
-
-p {
-  text-indent: 9.09090909%; /* Use one of 7-column grid to indent * */
-  line-height: 2.0437583893em;
-  padding-bottom: 0.8em;
-  padding-top: 0.5em;
-  background-color: transparent;
-    opacity: 1;
-}
-
 .capital1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.875;
+  font-size: 1.875em;
   font-weight: bold;
 }
 
@@ -178,12 +247,6 @@ p {
   font-size: 1.25em;
   text-align: left;
 }
-
-#content-wrapper {
-    background-color: rgba(150,150,150,0.8);
-    border-radius: 0.83333em;
-    -moz-border-radius: 0.83333em;
-  }
 
 input,label {
     display: block;
@@ -200,70 +263,11 @@ label {
   color: red;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  padding-bottom: 1.44em;
-  background-color: transparent;
-    opacity: 1;
-}
-
 /* TODO: Change media query to em units */
 @media screen and (min-width: 37.5em) {
   html {
     font-size: 120%;
   }
 
-  figure {
-    position: relative;
-  }
-  .images {
-    width: 54.54545455%;
-    margin-right: 45.45454545%;
-  }
-  figcaption {
-    width: 45.45454545%;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .flexbox figure {
-    position: static;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-  }
-  .flexbox .images {
-    width: auto;
-    margin: 0;
-    max-width: 54.54545455%;
-    -webkit-flex-basis: 54.54545455%;
-        -ms-flex-preferred-size: 54.54545455%;
-            flex-basis: 54.54545455%;
-  }
-  .flexbox figcaption {
-    position: static;
-    width: auto;
-    -webkit-flex-basis: 45.45454545%;
-        -ms-flex-preferred-size: 45.45454545%;
-            flex-basis: 45.45454545%;
-  }
-}
 
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-}
-
-.flex-item {
-  padding: 1em 1em 1em 1em;
-  width: 40%;
-  height:25%;
-}
 
