@@ -178,7 +178,7 @@ header {
 }
 
 #email{
-  width: 12.3125em;
+  width: 45%;
   height: 2.85em;
   -webkit-border-radius: 0.625em;
     -moz-border-radius: 0.625em;
@@ -192,7 +192,7 @@ header {
 }
 
 #send{
-  width: 12.3125em;
+  width: 45%;
   height: 2.85em;
   border:0.0625em solid transparent;
   border-radius: 0.625em;
