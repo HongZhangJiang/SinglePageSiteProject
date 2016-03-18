@@ -192,8 +192,8 @@ header {
 }
 
 #send{
-  width: 8em;
-  height: 2em;
+  width: 12.3125em;
+  height: 2.85em;
   border:0.0625em solid transparent;
   border-radius: 0.625em;
   font:bolder;
