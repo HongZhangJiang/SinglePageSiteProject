@@ -167,7 +167,7 @@ header {
 }
 
 #email{
-  width: 45%;
+  width: 100%;
   height: 2.85em;
   -webkit-border-radius: 0.625em;
     -moz-border-radius: 0.625em;
@@ -181,7 +181,7 @@ header {
 }
 
 #send{
-  width: 45%;
+  width: 100%;
   height: 2.85em;
   border:0.0625em solid transparent;
   border-radius: 0.625em;
@@ -234,4 +234,10 @@ input,label,form {
   #bxslider-container {
     display: block;
   }  
+
+  #email, #send{
+  width: 50%;
+  }
+
+
 }
