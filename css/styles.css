@@ -206,7 +206,10 @@ input,label,form {
   color: red;
 }
 
-/* TODO: Change media query to em units */
+#bxslider-container {
+    display: none;
+}
+
 @media screen and (min-width: 37.5em) {
   html {
   background: url(../images/background.jpg) no-repeat center center fixed;
@@ -227,4 +230,8 @@ input,label,form {
     margin-left: auto;
     margin-right: auto;
   }
+  
+  #bxslider-container {
+    display: block;
+  }  
 }
