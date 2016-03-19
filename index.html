@@ -5,8 +5,7 @@
 	  	<meta charset="utf-8" />
 	  	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 	  	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
-		<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
-	  	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		  	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 	  	<link rel="stylesheet" type="text/css" href="css/bxslider.css">
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
    		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
@@ -14,27 +13,6 @@
    		<script src="js/jquery.validate.js"></script>
    		<script src="js/myscript.js"></script>
    		<script src="js/bxslider.js"></script>
-	 	<script>
-			$.validator.setDefaults({
-				submitHandler: function() {
-					form.submit();
-				}
-			});
-			$().ready(function() {
-				// validate login form on keyup and submit
-				$("#login").validate({
-					messages: {
-						email: "Please enter a valid email address"
-					}
-				});
-			});
-			$(document).ready(function(){
-	  		$('.bxslider').bxSlider({
-	  			auto: true,
-  				autoControls: true
-	  		});
-		});
-		</script>
  	</head>
 
 	<body>
@@ -46,7 +24,7 @@
 					<h3>We design perfect Chinese tours just for you!</h3>
 				</header>
 
-				<div id="signup">	
+				<div class="linkpart">	
 			        <h3>
 			            <a href="#login">Get Updated Tours And Goupon!</a>
 		          	</h3>
@@ -60,13 +38,10 @@
 							  <li><img src="images/slide5.jpg" alt="tours-5."/></li>
 							  <li><img src="images/slide6.jpg" alt="tours-6."/></li>
 					</ul>
-			</div>
-
-			<div id="top-text-seciton">
 
 				<h2>Go with us to explore the beauty of China!</h2>
 
-				<p class="text"><span class="capital1">W</span>e offer various Chinese tours. If you want to go to china for sight-seeing, you can just tell us your destination, the time and the things which you want to experience. We will schedule everything for you. You may choose to go alone or find a group. Meanwhile, we will offer a tour guide who can take care of every detail of your days in China.</p> 
+				<p>We offer various Chinese tours. If you want to go to china for sight-seeing, you can just tell us your destination, the time and the things which you want to experience. We will schedule everything for you. You may choose to go alone or find a group. Meanwhile, we will offer a tour guide who can take care of every detail of your days in China.</p> 
 			</div>
 
 			<div id="pic-section">
@@ -74,7 +49,7 @@
 					<h2>Chinese Landscapes</h2>
 				</div>
 
-				<p class="text"><span class="capital1">T</span>here are many unique landscapes in China.</p> 
+				<p>There are many unique landscapes in China.</p> 
 
 				<div class="pic-container">
 				<a href="images/landscapes-1.jpg" target="_blank"><img src="images/landscapes-1-resized.jpg" alt="mountain view in Tibet" /></a>
@@ -104,7 +79,7 @@
 					<h2>Chinese History</h2>
 				</div>
 
-				<p class="text"><span class="capital1">C</span>hina has thousands history. In your tour, you can find these special views because of chinese history's effects.</p> 
+				<p>China has thousands history. In your tour, you can find these special views because of chinese history's effects.</p> 
 
 				<div class="pic-container">
 				<a href="images/History-1.jpg" target="_blank"><img src="images/History-1-resized.jpg" alt="Photo of Bingmayoung" /></a>
@@ -142,7 +117,7 @@
 						<input type="submit" name="submit" id="send" value="Sign Up"/>
 		        </form>	
 
-		        <div id="toplink">	
+		        <div class="linkpart">	
 			        <h3><a href="#top-section">Back to Top Page</a></h3>
 	        	</div>
         	</div>
