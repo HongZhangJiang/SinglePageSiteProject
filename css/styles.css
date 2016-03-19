@@ -89,9 +89,11 @@ p {
   font-size: 1.25em;
 }
 
+a { text-decoration: none; }
+
 /* unvisited link */
 a:link {
-  color: blue;
+  color: black;
 }
 
 /* visited link */
@@ -101,12 +103,12 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: black;
+  color: grey;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: yellow;
 }
 
 h1{
@@ -160,7 +162,7 @@ header {
   min-height: 100%;
  }
 
-#toplink{
+.linkpart{
   text-align: center;
 }
 
